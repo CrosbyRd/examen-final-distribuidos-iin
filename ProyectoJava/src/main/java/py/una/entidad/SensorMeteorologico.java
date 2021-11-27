@@ -50,4 +50,34 @@ public class SensorMeteorologico { //nueva clase completamente creado
     public String getCiudad() {
         return ciudad;
     }
+
+    public void setCiudad(String ciudad) {
+        this.ciudad = ciudad;
+    }
+
+    public void setFecha(Date fecha) {
+        this.fecha = fecha;
+    }
+
+    public void setHora(Timer hora) {
+        this.hora = hora;
+    }
+
+    public void setId_estacion(long id_estacion) {
+        this.id_estacion = id_estacion;
+    }
+
+    public void setPorcentaje_humedad(int porcentaje_humedad) {
+        this.porcentaje_humedad = porcentaje_humedad;
+    }
+
+    public void setTemperatura(float temperatura) {
+        this.temperatura = temperatura;
+    }
+
+    public void setVelocidad_viento(int velocidad_viento) {
+        this.velocidad_viento = velocidad_viento;
+    }
+
+
 }
